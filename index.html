@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+        <script src="function.js" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="section section-1">
+            <div class="section-title">Search</div>
+
+            <input type="text" class="searchInput" placeholder="Search something :)">
+            <br>
+            <button class="searchButton">Search</button>
+        </div>
+        <div class="section section-2">
+            <div class="section-title">Collection</div>
+
+            <button class="collection-button"></button>
+        </div>
+        <div class="section section-3">
+            <div class="section-title">Creators</div>
+
+            <div class="creator-list" onclick="search('waero')" style="margin-top: 10%">Waero</div>
+            <div class="creator-list" onclick="search('jun_(aousa0328)')">jun_(aousa0328)</div>
+        </div>
+    </body>
+</html>
